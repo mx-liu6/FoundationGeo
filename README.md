@@ -7,6 +7,7 @@
 **FoundationGeo: Learning Pixel-Wise Scale Fields for Monocular Metric Geometry**
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/abs/2509.20251)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Website-green)](https://mx-liu6.github.io/FoundationGeo-web/)
 [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/mx-liu6/FoundationGeo)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/your-model)
 
