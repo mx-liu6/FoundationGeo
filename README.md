@@ -21,16 +21,6 @@ We present **FoundationGeo**, with two-stage training strategy that explicitly b
 
 FoundationGeo attains state-of-the-art zero-shot performance across nine datasets on both metric depth and metric point map benchmarks, while maintaining strong relative consistency. Further analyses show that incorporating sparse metric cues, known intrinsics or domain-specific fine-tuning yields additional gains. In particular, with 3000 sparse metric priors, our predictions can almost match the performance of relative results.
 
-## 👥 Authors
-
-**Muxin Liu**<sup>1,2,*</sup>, **Xiaoyang Lyu**<sup>1,2,*</sup>, **Tianhe Ren**<sup>1</sup>, **Xiaoshan Wu**<sup>1,2</sup>, **Jiaqi Zhang**<sup>1</sup>, **Jiehong Lin**<sup>1</sup>, **Shaoshuai Shi**<sup>2,†</sup>, **Xiaojuan Qi**<sup>1,✉</sup>
-
-<sup>1</sup>HKU CVMI  
-<sup>2</sup>Voyager Research, Didi Chuxing
-
-<sup>*</sup>Equal Contribution  
-<sup>†</sup>Project Lead  
-<sup>✉</sup>Corresponding Author
 
 ## 🏗️ Architecture
 
