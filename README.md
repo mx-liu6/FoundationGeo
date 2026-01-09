@@ -56,8 +56,8 @@ If you find our work useful, please consider citing:
 
 ## 📄 License
 
-This project is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
-We thank [Nerfies](https://nerfies.github.io) for their project page template.
+We thank the MoGe series of works and DINOv3.
