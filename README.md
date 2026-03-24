@@ -78,7 +78,7 @@ pip install -r requirments.txt
     <tr>
       <td><a href="">ViT-L</a></td>
       <td>-</td>
-      <td>325M</td>
+      <td>313M</td>
     </tr>
     <tr>
       <td><a href="">ViT-Hplus</a></td>
@@ -89,12 +89,12 @@ pip install -r requirments.txt
       <td rowspan="2">Stage-II FoundationGeo</td>
       <td><a href="">ViT-L</a></td>
       <td>✅</td>
-      <td>325M</td>
+      <td>314M</td>
     </tr>
     <tr>
       <td><a href="">ViT-Hplus</a></td>
       <td>✅</td>
-      <td>948M</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
