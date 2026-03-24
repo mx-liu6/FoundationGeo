@@ -44,23 +44,34 @@
 ## TODO
 
 - [ ] Release paper and project page
-- [ ] Release Stage-I ViT-L Base model and code
+- [ ] Release Stage-I ViT-L base model and code
 - [ ] Release Stage-II FoundationGeo model and code
-- [ ] Release Model Zoo
+- [ ] Release model zoo
 - [ ] Release training code and config details
 
-## 📝 Abstract
+## ⚙️ Installation
 
-We present **FoundationGeo**, a two-stage framework that explicitly bridges relative and metric prediction via spatial calibration and principled data design. Stage 1 learns a high-fidelity, affine-invariant geometry model by initializing with DINOv3 and training on a curated 10.2M-sample multi-domain corpus with complementary local–detail supervision, yielding sharp boundaries and strong cross-domain generalization. Stage 2 moves beyond global scaling by introducing lightweight pixel-wise calibration fields for metric estimation: a scale field for spatially varying metric alignment and a ray-direction correction field that mitigates directional bias in point-map geometry, together producing metrically consistent 3D point maps.
-Beyond model design, we identify camera intrinsic coverage, especially focal length distribution mismatch between training and test data, as a key bottleneck for zero-shot metric generalization: performance drops sharply when test intrinsics fall outside the training distribution. To address this, we synthesize additional training data across diverse focal lengths using a Blender-based data engine, repairing under-covered focal regimes and improving robustness under intrinsic shift.
-Extensive zero-shot evaluations across seven benchmarks show that FoundationGeo significantly strengthens cross-domain robustness, staying near the top across diverse domains while avoiding the sharp cross-domain performance drops observed in other methods. This consistency translates into the best overall performance, surpassing heavier baselines by over 5.2% on average.
+```bash
+git clone https://github.com/mx-liu6/FoundationGeo.git
+cd FoundationGeo
+pip install -r requirments.txt
+```
+
+## 📦 Pretrained Models
+
+| Stage | Hugging Face Model | Metric Scale | # Params |
+| --- | --- | --- | --- |
+| Stage-I Base Model (ViT-S) | [ViT-S]() |  |  |
+| Stage-I Base Model (ViT-L) | [ViT-L]() |  |  |
+| Stage-I Base Model (ViT-Hplus) | [ViT-Hplus]() |  |  |
+| FoundationGeo (ViT-L) | [ViT-L]() | ✅ |  |
+| FoundationGeo (ViT-Hplus) | [ViT-Hplus]() | ✅ |  |
+
 
 
 ## 🏗️ Architecture
 
 ![Structure](assets/Structure.png)
-
-**FoundationGeo architecture.** A ViT encoder with a lightweight up-sampling convolutional decoder first learns a high-fidelity *relative geometry* branch, predicting a validity mask **M_hat** and an affine-invariant point map **P_hat**. In the second stage, we first apply a ray-direction correction field **Delta_hat** to **P_hat** to obtain a direction-refined relative point map, and then use a spatial scale field **S_hat** to perform spatially varying rescaling, producing a metric point map **P_tilde**. Metric depth and surface normals are subsequently derived from **P_tilde**.
 
 ## 📊 Main Results
 
