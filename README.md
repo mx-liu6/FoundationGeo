@@ -13,6 +13,13 @@
   <a href="https://xjqi.github.io" target="_blank">Xiaojuan Qi<sup>1</sup></a><sup>,✉</sup>
 </p>
 
+![Teaser](assets/Teaser.png)
+
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/abs/2509.20251)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Website-green)](https://mx-liu6.github.io/FoundationGeo-web/)
+[![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/mx-liu6/FoundationGeo)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/your-model)
+
 <p align="center">
   <sup>1</sup>HKU CVMI &nbsp;&nbsp;
   <sup>2</sup>Voyager Research, Didi Chuxing
@@ -24,12 +31,6 @@
 
 <div align="center">
 
-![Teaser](assets/Teaser.png)
-
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/abs/2509.20251)
-[![Project Page](https://img.shields.io/badge/Project%20Page-Website-green)](https://mx-liu6.github.io/FoundationGeo-web/)
-[![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/mx-liu6/FoundationGeo)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/your-model)
 
 </div>
 
@@ -46,7 +47,6 @@
 We present **FoundationGeo**, a two-stage framework that explicitly bridges relative and metric prediction via spatial calibration and principled data design. Stage 1 learns a high-fidelity, affine-invariant geometry model by initializing with DINOv3 and training on a curated 10.2M-sample multi-domain corpus with complementary local–detail supervision, yielding sharp boundaries and strong cross-domain generalization. Stage 2 moves beyond global scaling by introducing lightweight pixel-wise calibration fields for metric estimation: a scale field for spatially varying metric alignment and a ray-direction correction field that mitigates directional bias in point-map geometry, together producing metrically consistent 3D point maps.
 Beyond model design, we identify camera intrinsic coverage, especially focal length distribution mismatch between training and test data, as a key bottleneck for zero-shot metric generalization: performance drops sharply when test intrinsics fall outside the training distribution. To address this, we synthesize additional training data across diverse focal lengths using a Blender-based data engine, repairing under-covered focal regimes and improving robustness under intrinsic shift.
 Extensive zero-shot evaluations across seven benchmarks show that FoundationGeo significantly strengthens cross-domain robustness, staying near the top across diverse domains while avoiding the sharp cross-domain performance drops observed in other methods. This consistency translates into the best overall performance, surpassing heavier baselines by over 5.2% on average.
-
 
 
 ## 🏗️ Architecture
