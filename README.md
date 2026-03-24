@@ -73,28 +73,28 @@ pip install -r requirments.txt
       <td rowspan="3">Stage-I Base Model</td>
       <td><a href="">ViT-S</a></td>
       <td>-</td>
-      <td></td>
+      <td>30M</td>
     </tr>
     <tr>
       <td><a href="">ViT-L</a></td>
       <td>-</td>
-      <td></td>
+      <td>325M</td>
     </tr>
     <tr>
       <td><a href="">ViT-Hplus</a></td>
       <td>-</td>
-      <td></td>
+      <td>948M</td>
     </tr>
     <tr>
-      <td rowspan="2">FoundationGeo</td>
+      <td rowspan="2">Stage-II FoundationGeo</td>
       <td><a href="">ViT-L</a></td>
       <td>✅</td>
-      <td></td>
+      <td>325M</td>
     </tr>
     <tr>
       <td><a href="">ViT-Hplus</a></td>
       <td>✅</td>
-      <td></td>
+      <td>948M</td>
     </tr>
   </tbody>
 </table>
