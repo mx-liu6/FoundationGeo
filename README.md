@@ -1,4 +1,4 @@
-# FoundationGeo: Learning Pixel-Wise Spatial Fields for Monocular Metric Geometry
+<h1 align="center">FoundationGeo: Learning Pixel-Wise Spatial Fields for Monocular Metric Geometry</h1>
 
 <p align="center">
   <a href="" target="_blank">Muxin Liu<sup>1,2</sup></a><sup>,*</sup>,
@@ -13,12 +13,6 @@
   <a href="https://xjqi.github.io" target="_blank">Xiaojuan Qi<sup>1</sup></a><sup>,✉</sup>
 </p>
 
-<div align="center">
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/abs/2509.20251)
-[![Project Page](https://img.shields.io/badge/Project%20Page-Website-green)](https://mx-liu6.github.io/FoundationGeo-web/)
-[![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/mx-liu6/FoundationGeo)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/your-model)
-
 <p align="center">
   <sup>1</sup>HKU CVMI &nbsp;&nbsp;
   <sup>2</sup>Voyager Research, Didi Chuxing
@@ -28,11 +22,24 @@
   <sup>✉</sup>Corresponding Author
 </p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2509.20251">
+    <img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper">
+  </a>
+  <a href="https://mx-liu6.github.io/FoundationGeo-web/">
+    <img src="https://img.shields.io/badge/Project%20Page-Website-green" alt="Project Page">
+  </a>
+  <a href="https://github.com/mx-liu6/FoundationGeo">
+    <img src="https://img.shields.io/badge/Code-GitHub-blue" alt="Code">
+  </a>
+  <a href="https://huggingface.co/your-model">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow" alt="Hugging Face">
+  </a>
+</p>
 
-
-![Teaser](assets/Teaser.png)
-
-</div>
+<p align="center">
+  <img src="assets/Teaser.png" alt="Teaser">
+</p>
 
 ## TODO
 
