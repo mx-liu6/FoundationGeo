@@ -1,16 +1,16 @@
 <h1 align="center">FoundationGeo: Learning Pixel-Wise Spatial Fields for Monocular Metric Geometry</h1>
 
 <p align="center">
-  <a href="" target="_blank">Muxin Liu<sup>1,2</sup></a><sup>,*</sup>,
-  <a href="https://shawlyu.github.io" target="_blank">Xiaoyang Lyu<sup>1,2</sup></a><sup>,*</sup>,
-  <a href="https://rentainhe.github.io" target="_blank">Tianhe Ren<sup>1</sup></a>,
-  <a href="https://daipengwa.github.io" target="_blank">Peng Dai<sup>1</sup></a>,
-  <a href="https://scholar.google.com/citations?user=9nsSKpsAAAAJ&hl=en" target="_blank">Xiaoshan Wu<sup>1,2</sup></a>,
-  <a href="" target="_blank">Zhiyue Zhang<sup>1</sup></a>,
-  <a href="https://scholar.google.com/citations?user=V1zSNIYAAAAJ&hl=en" target="_blank">Jiaqi Zhang<sup>1</sup></a>,
-  <a href="https://jiehonglin.github.io" target="_blank">Jiehong Lin<sup>1</sup></a>,
-  <a href="https://shishaoshuai.com" target="_blank">Shaoshuai Shi<sup>2</sup></a><sup>,†</sup>,
-  <a href="https://xjqi.github.io" target="_blank">Xiaojuan Qi<sup>1</sup></a><sup>,✉</sup>
+  <a href="" target="_blank">Muxin Liu</a><sup>1,2,*</sup>,
+  <a href="https://shawlyu.github.io" target="_blank">Xiaoyang Lyu</a><sup>1,2,*</sup>,
+  <a href="https://rentainhe.github.io" target="_blank">Tianhe Ren</a><sup>1</sup>,
+  <a href="https://daipengwa.github.io" target="_blank">Peng Dai</a><sup>1</sup>,
+  <a href="https://scholar.google.com/citations?user=9nsSKpsAAAAJ&hl=en" target="_blank">Xiaoshan Wu</a><sup>1,2</sup>,
+  <a href="" target="_blank">Zhiyue Zhang</a><sup>1</sup>,
+  <a href="https://scholar.google.com/citations?user=V1zSNIYAAAAJ&hl=en" target="_blank">Jiaqi Zhang</a><sup>1</sup>,
+  <a href="https://jiehonglin.github.io" target="_blank">Jiehong Lin</a><sup>1</sup>,
+  <a href="https://shishaoshuai.com" target="_blank">Shaoshuai Shi</a><sup>2,†</sup>,
+  <a href="https://xjqi.github.io" target="_blank">Xiaojuan Qi</a><sup>1,✉</sup>
 </p>
 
 <p align="center">
