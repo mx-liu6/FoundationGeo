@@ -59,13 +59,45 @@ pip install -r requirments.txt
 
 ## 📦 Pretrained Models
 
-| Stage | Hugging Face Model | Metric Scale | # Params |
-| --- | --- | --- | --- |
-| Stage-I Base Model (ViT-S) | [ViT-S]() |  |  |
-| Stage-I Base Model (ViT-L) | [ViT-L]() |  |  |
-| Stage-I Base Model (ViT-Hplus) | [ViT-Hplus]() |  |  |
-| FoundationGeo (ViT-L) | [ViT-L]() | ✅ |  |
-| FoundationGeo (ViT-Hplus) | [ViT-Hplus]() | ✅ |  |
+<table>
+  <thead>
+    <tr>
+      <th>Stage</th>
+      <th>Hugging Face Model</th>
+      <th>Metric Scale</th>
+      <th># Params</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">Stage-I Base Model</td>
+      <td><a href="">ViT-S</a></td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="">ViT-L</a></td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="">ViT-Hplus</a></td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">FoundationGeo</td>
+      <td><a href="">ViT-L</a></td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="">ViT-Hplus</a></td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
