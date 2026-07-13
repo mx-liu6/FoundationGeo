@@ -9,7 +9,7 @@
   <a href="" target="_blank">Zhiyue Zhang</a><sup>1</sup>,
   <a href="https://scholar.google.com/citations?user=V1zSNIYAAAAJ&hl=en" target="_blank">Jiaqi Zhang</a><sup>1</sup>,
   <a href="https://jiehonglin.github.io" target="_blank">Jiehong Lin</a><sup>1</sup>,
-  <a href="https://shishaoshuai.com" target="_blank">Shaoshuai Shi</a><sup>2,†</sup>,
+  <a href="https://shishaoshuai.com" target="_blank">Shaoshuai Shi</a><sup>2,✉</sup>,
   <a href="https://xjqi.github.io" target="_blank">Xiaojuan Qi</a><sup>1,✉</sup>
 </p>
 
@@ -18,7 +18,6 @@
   <sup>2</sup>Voyager Research, Didi Chuxing
   <br>
   <sup>*</sup>Equal Contribution &nbsp;
-  <sup>†</sup>Project Leader &nbsp;
   <sup>✉</sup>Corresponding Author
 </p>
 
