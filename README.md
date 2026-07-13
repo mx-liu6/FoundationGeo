@@ -6,7 +6,7 @@
   <a href="https://rentainhe.github.io" target="_blank">Tianhe Ren</a><sup>1</sup>,
   <a href="https://daipengwa.github.io" target="_blank">Peng Dai</a><sup>1</sup>,
   <a href="https://scholar.google.com/citations?user=9nsSKpsAAAAJ&hl=en" target="_blank">Xiaoshan Wu</a><sup>1,2</sup>,
-  <a href="" target="_blank">Zhiyue Zhang</a><sup>1</sup>,
+  <a href="https://mx-liu6.github.io/FoundationGeo-web/" target="_blank">Zhiyue Zhang</a><sup>1</sup>,
   <a href="https://scholar.google.com/citations?user=V1zSNIYAAAAJ&hl=en" target="_blank">Jiaqi Zhang</a><sup>1</sup>,
   <a href="https://jiehonglin.github.io" target="_blank">Jiehong Lin</a><sup>1</sup>,
   <a href="https://shishaoshuai.com" target="_blank">Shaoshuai Shi</a><sup>2,✉</sup>,
@@ -31,7 +31,7 @@
   <a href="https://github.com/mx-liu6/FoundationGeo">
     <img src="https://img.shields.io/badge/Code-GitHub-blue" alt="Code">
   </a>
-  <a href="https://huggingface.co/your-model">
+  <a href="https://huggingface.co/mxliu-hku/FoundationGeo-1.1">
     <img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow" alt="Hugging Face">
   </a>
 </p>
@@ -271,7 +271,7 @@ If you find our work useful, please consider citing:
 - [Paper](https://arxiv.org/abs/2509.20251)
 - [Project Page](https://mx-liu6.github.io/FoundationGeo-web/)
 - [Code](https://github.com/mx-liu6/FoundationGeo)
-- [Hugging Face](https://huggingface.co/your-model)
+- [Hugging Face](https://huggingface.co/mxliu-hku/FoundationGeo-1.1)
 
 ## 📄 License
 
