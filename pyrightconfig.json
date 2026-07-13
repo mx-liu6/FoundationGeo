@@ -1,0 +1,10 @@
+{   
+    "include": [
+        "foundationgeo", 
+        "scripts",
+        "baselines"
+    ],
+    "ignore": [
+        "**"
+    ]
+}

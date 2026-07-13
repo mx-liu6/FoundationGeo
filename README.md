@@ -1,7 +1,7 @@
 <h1 align="center">FoundationGeo: Learning Pixel-Wise Spatial Fields for Monocular Metric Geometry</h1>
 
 <p align="center">
-  <a href="" target="_blank">Muxin Liu</a><sup>1,2,*</sup>,
+  <a href="https://mx-liu6.github.io/FoundationGeo-web/" target="_blank">Muxin Liu</a><sup>1,2,*</sup>,
   <a href="https://shawlyu.github.io" target="_blank">Xiaoyang Lyu</a><sup>1,2,*</sup>,
   <a href="https://rentainhe.github.io" target="_blank">Tianhe Ren</a><sup>1</sup>,
   <a href="https://daipengwa.github.io" target="_blank">Peng Dai</a><sup>1</sup>,
@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <sup>1</sup>HKU CVMI &nbsp;&nbsp;
+  <sup>1</sup>The University of Hong Kong &nbsp;&nbsp;
   <sup>2</sup>Voyager Research, Didi Chuxing
   <br>
   <sup>*</sup>Equal Contribution &nbsp;
-  <sup>†</sup>Project Lead &nbsp;
+  <sup>†</sup>Project Leader &nbsp;
   <sup>✉</sup>Corresponding Author
 </p>
 
@@ -43,11 +43,11 @@
 
 ## TODO
 
-- [ ] Release paper and project page
-- [ ] Release Stage-I ViT-L base model and code
-- [ ] Release Stage-II FoundationGeo model and code
+- [ ✅ ] Release paper and project page
+- [ ✅ ] Release Stage-I ViT-L base model and code
+- [ ✅ ] Release Stage-II FoundationGeo model and code
+- [ ✅ ] Release training code and config details
 - [ ] Release model zoo
-- [ ] Release training code and config details
 
 ## ⚙️ Installation
 
@@ -64,37 +64,42 @@ pip install -r requirments.txt
     <tr>
       <th>Stage</th>
       <th>Hugging Face Model</th>
+      <th>Version</th>
+      <th>Release Type</th>
       <th>Metric Scale</th>
       <th># Params</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">Stage-I Base Model</td>
-      <td><a href="">ViT-S</a></td>
-      <td>-</td>
-      <td>30M</td>
-    </tr>
-    <tr>
-      <td><a href="">ViT-L</a></td>
+      <td rowspan="2">Stage-I Base Model</td>
+      <td><a href="https://huggingface.co/mxliu-hku/FoundationGeo-Base">FoundationGeo-Base-v1</a></td>
+      <td>v1</td>
+      <td>Submission version</td>
       <td>-</td>
       <td>313M</td>
     </tr>
     <tr>
-      <td><a href="">ViT-Hplus</a></td>
+      <td><a href="https://huggingface.co/mxliu-hku/FoundationGeo-Base-1.1">FoundationGeo-Base-v1.1</a></td>
+      <td>v1.1</td>
+      <td><b>Recommended version</b></td>
       <td>-</td>
-      <td>948M</td>
+      <td>313M</td>
     </tr>
     <tr>
       <td rowspan="2">Stage-II FoundationGeo</td>
-      <td><a href="">ViT-L</a></td>
+      <td><a href="https://huggingface.co/mxliu-hku/FoundationGeo">FoundationGeo-v1</a></td>
+      <td>v1</td>
+      <td>Submission version</td>
       <td>✅</td>
       <td>314M</td>
     </tr>
     <tr>
-      <td><a href="">ViT-Hplus</a></td>
+      <td><a href="https://huggingface.co/mxliu-hku/FoundationGeo-1.1">FoundationGeo-v1.1</a></td>
+      <td>v1.1</td>
+      <td><b>Recommended version</b></td>
       <td>✅</td>
-      <td></td>
+      <td>314M</td>
     </tr>
   </tbody>
 </table>

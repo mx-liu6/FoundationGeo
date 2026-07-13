@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FoundationGeo"
+version = "1.0.0"
+description = "FoundationGeo: Learning Pixel-Wise Spatial Fields for Monocular Metric Geometry"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+    "click",
+    "opencv-python",
+    "scipy",
+    "matplotlib",
+    "trimesh",
+    "pillow",
+    "huggingface_hub",
+    "numpy",
+    "torch>=2.0.0",
+    "torchvision",
+    "gradio",
+    "utils3d @ git+https://github.com/EasternJournalist/utils3d.git@c5daf6f6c244d251f252102d09e9b7bcef791a38"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://mx-liu6.github.io/FoundationGeo-web/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["foundationgeo*"]
+
+[project.scripts]
+foundationgeo = "foundationgeo.scripts.cli:main"
