@@ -275,7 +275,7 @@
             "milestones": [2000]
         }
     },
-    "low_resolution_training_steps": 0,
+    "low_resolution_training_steps": 10000,
     "loss": {
         "invalid": {},
         "synthetic": {
