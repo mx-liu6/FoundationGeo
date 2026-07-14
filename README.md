@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2509.20251">
+  <a href="https://arxiv.org/abs/2607.11588">
     <img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper">
   </a>
   <a href="https://mx-liu6.github.io/FoundationGeo-web/">
@@ -258,17 +258,20 @@ Quantitative results for metric and relative depth estimation. *AbsRel* and *del
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{liu2025foundationgeo,
-  title={FoundationGeo: Learning Pixel-Wise Scale Fields for Monocular Metric Geometry},
-  author={Liu, Muxin and Lyu, Xiaoyang and Ren, Tianhe and Wu, Xiaoshan and Zhang, Jiaqi and Lin, Jiehong and Shi, Shaoshuai and Qi, Xiaojuan},
-  journal={arXiv preprint arXiv:2509.20251},
-  year={2025}
+@misc{liu2026foundationgeolearningspatialpixelwise,
+      title={FoundationGeo: Learning Spatial Pixel-Wise Fields for Monocular Metric Geometry}, 
+      author={Muxin Liu and Xiaoyang Lyu and Tianhe Ren and Peng Dai and Xiaoshan Wu and Zhiyue Zhang and Jiaqi Zhang and Jiehong Lin and Shaoshuai Shi and Xiaojuan Qi},
+      year={2026},
+      eprint={2607.11588},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2607.11588}, 
 }
 ```
 
 ## 🔗 Links
 
-- [Paper](https://arxiv.org/abs/2509.20251)
+- [Paper](https://arxiv.org/abs/2607.11588)
 - [Project Page](https://mx-liu6.github.io/FoundationGeo-web/)
 - [Code](https://github.com/mx-liu6/FoundationGeo)
 - [Hugging Face](https://huggingface.co/mxliu-hku/FoundationGeo-1.1)
