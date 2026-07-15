@@ -2,10 +2,10 @@
 
 <p align="center">
   <a href="https://mx-liu6.github.io/FoundationGeo-web/" target="_blank">Muxin Liu</a><sup>1,2,*</sup>,
-  <a href="https://shawlyu.github.io" target="_blank">Xiaoyang Lyu</a><sup>1,2,*</sup>,
+  <a href="https://shawlyu.github.io" target="_blank">Xiaoyang Lyu</a><sup>1,*</sup>,
   <a href="https://rentainhe.github.io" target="_blank">Tianhe Ren</a><sup>1</sup>,
   <a href="https://daipengwa.github.io" target="_blank">Peng Dai</a><sup>1</sup>,
-  <a href="https://scholar.google.com/citations?user=9nsSKpsAAAAJ&hl=en" target="_blank">Xiaoshan Wu</a><sup>1,2</sup>,
+  <a href="https://scholar.google.com/citations?user=9nsSKpsAAAAJ&hl=en" target="_blank">Xiaoshan Wu</a><sup>1</sup>,
   <a href="https://mx-liu6.github.io/FoundationGeo-web/" target="_blank">Zhiyue Zhang</a><sup>1</sup>,
   <a href="https://scholar.google.com/citations?user=V1zSNIYAAAAJ&hl=en" target="_blank">Jiaqi Zhang</a><sup>1</sup>,
   <a href="https://jiehonglin.github.io" target="_blank">Jiehong Lin</a><sup>1</sup>,
