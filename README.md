@@ -258,7 +258,7 @@ Quantitative results for metric and relative depth estimation. *AbsRel* and *del
 If you find our work useful, please consider citing:
 
 ```bibtex
-@misc{liu2026foundationgeolearningspatialpixelwise,
+@misc{liu2026foundationgeo,
       title={FoundationGeo: Learning Spatial Pixel-Wise Fields for Monocular Metric Geometry}, 
       author={Muxin Liu and Xiaoyang Lyu and Tianhe Ren and Peng Dai and Xiaoshan Wu and Zhiyue Zhang and Jiaqi Zhang and Jiehong Lin and Shaoshuai Shi and Xiaojuan Qi},
       year={2026},
