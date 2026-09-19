@@ -258,14 +258,13 @@ Quantitative results for metric and relative depth estimation. *AbsRel* and *del
 If you find our work useful, please consider citing:
 
 ```bibtex
-@misc{liu2026foundationgeo,
-      title={FoundationGeo: Learning Spatial Pixel-Wise Fields for Monocular Metric Geometry}, 
-      author={Muxin Liu and Xiaoyang Lyu and Tianhe Ren and Peng Dai and Xiaoshan Wu and Zhiyue Zhang and Jiaqi Zhang and Jiehong Lin and Shaoshuai Shi and Xiaojuan Qi},
-      year={2026},
-      eprint={2607.11588},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2607.11588}, 
+@inproceedings{liu2026foundationgeo,
+  title={FoundationGeo: Learning Spatial Pixel-Wise Fields for Monocular Metric Geometry},
+  author={Liu, Muxin and Lyu, Xiaoyang and Ren, Tianhe and Dai, Peng and Wu, Xiaoshan and Zhang, Zhiyue and Zhang, Jiaqi and Lin, Jiehong and Shi, Shaoshuai and Qi, Xiaojuan},
+  booktitle={European Conference on Computer Vision},
+  pages={353--371},
+  year={2026},
+  organization={Springer}
 }
 ```
 
@@ -283,3 +282,16 @@ This project is licensed under the MIT License.
 ## 🙏 Acknowledgments
 
 We thank the MoGe series of works and DINOv3.
+
+## 🌟 Related Work
+
+For efficient monocular geometry estimation in optically challenging scenes, we also recommend our related work, [OptiGeo](https://mx-liu6.github.io/OptiGeo-web/):
+
+```bibtex
+@inproceedings{liu2026optigeo,
+  title={OptiGeo: Efficient Monocular Geometry for Embodied Perception in Optically Challenging Scenes},
+  author={Liu, Muxin and Liu, Tianbo and Xia, Jing and Lyu, Xiaoyang and Wu, Xiaoshan and Wang, Bo and Dai, Peng and Wang, Zhongrui and Shi, Shaoshuai and Qi, Xiaojuan},
+  booktitle={Conference on Robot Learning (CoRL)},
+  year={2026}
+}
+```
